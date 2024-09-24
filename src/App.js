@@ -6,6 +6,7 @@ import Home from './component/Home';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Course from './component/Course';
+import Courses from './component/Courses';
 
 
 function App() {
@@ -14,9 +15,8 @@ function App() {
   return (
     <div>
     
-    <Header name="anish"/>
     <Home/>
-    <Course/>
+    <Courses/>
 
     <Button color='warning'  onClick={notify}>Click me pls</Button>
    
