@@ -5,6 +5,7 @@ import { Button } from 'reactstrap';
 import Home from './component/Home';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Course from './component/Course';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     
     <Header name="anish"/>
     <Home/>
+    <Course/>
 
     <Button color='warning'  onClick={notify}>Click me pls</Button>
    
