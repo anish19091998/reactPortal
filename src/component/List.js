@@ -4,8 +4,8 @@ import { ListGroup, ListGroupItem } from "reactstrap";
 const List=()=>{
     return(
         <ListGroup>
-            <ListGroupItem>Home</ListGroupItem>
-            <ListGroupItem>Add Course</ListGroupItem>
+            <ListGroupItem tag="a" href="/" action>Home</ListGroupItem>
+            <ListGroupItem  tag="a" href="/add-course">Add Course</ListGroupItem>
             <ListGroupItem>View Course</ListGroupItem>
             <ListGroupItem>About</ListGroupItem>
             <ListGroupItem>Contact Us</ListGroupItem>

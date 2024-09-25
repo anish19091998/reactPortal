@@ -1,0 +1,19 @@
+----create react app
+npx create-react-app appname
+-----run react app
+npm start
+-----create compoenent 
+----add props 
+
+-----install react strap 
+npm install reactstrap
+-----install bootstrap 
+npm install --save bootstrap
+import min.css in index.js
+import 'bootstrap/dist/css/bootstrap.min.css';
+----add reacttostify
+npm install --save react-toastify
+add axios 
+npm install axios
+---use router
+npm install react-router-dom
