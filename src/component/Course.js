@@ -10,17 +10,17 @@ const Course=({course})=>{
    
     <CardBody>
       <CardTitle tag="h5" className="text-center">
-      {course.title}
+      {course.id}
       </CardTitle>
       <CardSubtitle
         className="mb-2 text-muted text-left"
         tag="h6" 
       >
-       {course.subtitle}
+       {course.email}
       </CardSubtitle>
       <CardText className="
       text-left">
-    {course.content}
+    {course.first_name}
       </CardText>
       <Button color="warning">
         Update
