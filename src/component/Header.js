@@ -1,9 +1,14 @@
 import React from "react";
- function Header({name}){
+import { Card, CardBody } from "reactstrap";
+ function Header(){
     return(
         <div>
-        <h2 style={{background:"red"}}>
-        this is header component added by {name}</h2></div>
+        <Card style={{background:'gray'}} >
+            <CardBody> <h2 className="text-center my-1" style={{color:"white"}}
+       >Welcome to Courses Application</h2></CardBody>
+        </Card>
+
+       </div>
 
     )
 }

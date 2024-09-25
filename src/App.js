@@ -1,27 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header';
-import { Button } from 'reactstrap';
-import Home from './component/Home';
-import { ToastContainer, toast } from 'react-toastify';
+import {  Container, Form } from 'reactstrap';
 import 'react-toastify/dist/ReactToastify.css';
-import Course from './component/Course';
-import Courses from './component/Courses';
-import AddCourse from './component/AddCourse';
-import { Fragment } from 'react';
+import {Row,Col} from 'reactstrap'
+import Header from './component/Header'
+import List from './component/List';
+import Home from './component/Home'
+
 
 
 function App() {
-  const notify = () => toast("Wow so easy!");
  
   return (
-    <Fragment>
-    
-    <Home/>
-    <Courses/>
-    <AddCourse/>
-    </Fragment>
-
+    <Container>
+    <Header/>
+      <Row>
+        <Col md={4}><List/></Col>
+        <Col md={8}><Home/></Col>
+      </Row>
+    </Container>
     );
 }
 
