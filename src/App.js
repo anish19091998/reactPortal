@@ -7,6 +7,7 @@ import List from './component/List';
 import Home from './component/Home';
 import AddCourse from './component/AddCourse'
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Courses from './component/Courses';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Col md={8}>
           <Routes> <Route path='/' Component={Home} exact></Route>
           <Route path='/add-course' Component={AddCourse} exact></Route>
+          <Route path='/view-course' Component={Courses} exact></Route>
           </Routes>
          
         </Col>
